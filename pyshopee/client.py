@@ -14,7 +14,7 @@ from .rma import RMA
 from .returns import Returns
 from .public import Public
 from .toppicks import Toppicks
-
+from .payment import Payment
 
 # installed sub-module
 registered_module = {
@@ -28,6 +28,7 @@ registered_module = {
     "returns": Returns,
     "rma": RMA,
     "public": Public,
+    "payment": Payment,
     "toppicks": Toppicks
 }
 
